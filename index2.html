@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analýza dát a umelá inteligencia</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Header Section -->
+        <header class="header">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-item" data-i18n="study-title">Štúdium</a></li>
+                    <li><a href="#" class="nav-item" data-i18n="activity-title">Aktivity</a></li>
+                    <li><a href="#" class="nav-item" data-i18n="careers-title">Kariéra</a></li>
+                    <li><a href="#" class="nav-item" data-i18n="about-faculty-title">O fakulte</a></li>
+                    <li><a href="#" class="nav-item" data-i18n="contacts-title">Kontakty</a></li>
+                    <li>
+                        <a href="#" class="nav-item" data-i18n="language">Jazyk</a>
+                        <div class="dropdown">
+                            <a href="?lang=sk" data-i18n="slovak-lang">Slovensky (SK)</a>
+                            <a href="?lang=en" data-i18n="english-lang">English (EN)</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <button class="button-prihlaska" onclick="window.open('https://e-prihlaska.upjs.sk/ais/eprihlas/#!/home', '_blank')" data-i18n="application-text">Prihláška</button>
+            </nav>
+            <div class="hero-content">
+                <h1 class="hero-title" data-i18n="hero-title">Analýza dát<br />a umelá inteligencia</h1>
+                <p class="hero-description" data-i18n="hero-description">Počas štúdia získaš veľmi slušné základy z programovania, matematiky a
+                    štatistiky, a tie budeš vedieť uplatniť na riešenie výziev v reálnom svete.</p>
+                <button class="study-button" onclick="window.open('https://e-prihlaska.upjs.sk/ais/eprihlas/#!/home', '_blank')" data-i18n="study-button">Študujte s nami</button>
+            </div>
+        </header>
+
+        <!-- Main Content Sections -->
+        <main>
+            <section class="section-why-study">
+                <h2 class="whyStudy" data-i18n="whyStudy">Prečo študovať ADUI na UPJŠ?</h2>
+                <div class="why-study-cards">
+                    <div class="card">
+                        <img src="img/web_img/vector_server.png" alt="Server" width=99>
+                        <!-- <div class="icon vector-server"></div> -->
+                        <p data-i18n="why-study-text1">Obrovské množstvo zozbieraných dát volá po rozumnom využití. Po dátových analytikoch je a
+                            ešte dlho bude veľmi veľký dopyt</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/web_img/vector_building.png" alt="Building" width=99 height=90.88 >
+                        <!--<div class="icon vector-building"></div>-->
+                        <p data-i18n="why-study-text2">Počas štúdia budeš pracovať na rôznych projektoch zadaných firmami, s ktorými spolupracujeme.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="img/web_img/vector_folder.png" alt="Folder" width=86 height=78.95>
+                        <!--<div class="icon vector-person-chat"></div>-->
+                        <p data-i18n="why-study-text3">Budú ťa učiť odborníci, ktorí sa venujú zaujímavým otázkam – metódy na rozpoznávanie
+                            rakovinotvorných buniek, atd<br /></p>
+                    </div>
+                    <div class="card">
+                        <img src="img/web_img/vector_city.png" alt="City" width=99 height=97.38>
+                        <!--<div class="icon vector-location"></div>-->
+                        <p data-i18n="why-study-text4">Košice sú mesto s bohatou kultúrou, prírodou a výhodnou polohou pri hraniciach s Maďarskom,
+                            Poľskom a Ukrajinou<br /></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-latest-events">
+                <div class="latest-events-container">
+                    <div class="main-event-card">
+                        <h2 class="main-event-title" data-i18n="main-event-title-text">Latest<br />events</h2>
+                        <button class="button-find-out-more" data-i18n="button-find-out-more-text">Find out more</button>
+                    </div>
+                    <div class="event-cards-grid">
+                        <div class="event-card orange event-card-orange-left">
+                            <h3 class="event-title" data-i18n="event-title-1-name">DAM: Sunset or Sunrise of GenAI | Workshop: LLM Prototyping</h3>
+                            <p class="event-date" data-i18n="event-title-1-date">14. novembra 2024</p>
+                        </div>
+                        <div class="event-card blue event-card-blue-left">
+                            <h3 class="event-title" data-i18n="event-title-2-name">DataDay 5</h3>
+                            <p class="event-date" data-i18n="event-title-2-date">14. novembra 2024</p>
+                        </div>
+                        <div class="event-card blue event-card-image-left">
+                            <img src="img/web_img/events.jpg" alt="Event Image" class="event-image">
+                        </div>
+                        <div class="event-card orange event-card-orange-right">
+                            <h3 class="event-title" data-i18n="event-title-3-name">Dáta v medicíne a zdravotnej starostlivosti</h3>
+                            <p class="event-date" data-i18n="event-title-3-date">15. mája 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT US stepped carousel — JS adds clone of slide[0] at end -->
+            <section class="section-about-us">
+                <h2>O nás</h2>
+
+                <div class="slider-container">
+                    <div class="slider-track" id="aboutTrack">
+                        <div class="slide">
+                            <img 
+                                src="https://loremflickr.com/1250/750?random=1" 
+                                alt="Slide Background" 
+                                class="slide-bg-img"
+                                decoding="async" 
+                            />
+                            <div class="slide-content">
+                                <div class="slide-title">Interactive Learning Sessions</div>
+                                <div class="slide-subtitle">Hands-on experience with industry professionals</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img 
+                                src="https://loremflickr.com/1250/750?random=2" 
+                                alt="Slide Background" 
+                                class="slide-bg-img"
+                                decoding="async" 
+                            />
+                            <div class="slide-content">
+                                <div class="slide-title">Student of ADUI</div>
+                                <div class="slide-subtitle">Innovative automotive engineering program</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img 
+                                src="https://loremflickr.com/1250/750?random=3" 
+                                alt="Slide Background" 
+                                class="slide-bg-img"
+                                decoding="async" 
+                            />
+                            <div class="slide-content">
+                                <div class="slide-title">Number of students and teachers</div>
+                                <div class="slide-subtitle">240+ students and 20+ teachers</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img 
+                                src="https://loremflickr.com/1250/750?random=4" 
+                                alt="Slide Background" 
+                                class="slide-bg-img"
+                                decoding="async"  
+                            />
+                            <div class="slide-content">
+                                <div class="slide-title">Modern Learning Environment</div>
+                                <div class="slide-subtitle">State-of-the-art facilities and equipment</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img 
+                                src="https://loremflickr.com/1250/750?random=5" 
+                                alt="Slide Background" 
+                                class="slide-bg-img"
+                                decoding="async"  
+                            />
+                            <div class="slide-content">
+                                <div class="slide-title">Number of students</div>
+                                <div class="slide-subtitle">240+ students and 20+ teachers</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img 
+                                src="https://loremflickr.com/1250/750?random=6" 
+                                alt="Slide Background" 
+                                class="slide-bg-img"
+                                decoding="async"  
+                            />
+                            <div class="slide-content">
+                                <div class="slide-title">Interactive Learning Sessions</div>
+                                <div class="slide-subtitle">Hands-on experience with industry professionals</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="swiper-container">
+                <h2 data-i18n="review-title">ŠTUDENTSKÉ RECENZIE</h2>
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-navigation swiper-button-prev">❮</div>
+                        <div class="swiper-viewport">
+                            <div class="slides-container">
+                                <div class="swiper-slide">
+                                    <div class="profile-image">
+                                        <div class="profile-icon"></div>
+                                    </div>
+                                    <div class="review-content">
+                                        <h3 class="reviewer-name" data-i18n="review-1-name">Kateryna Rozenko</h3>
+                                        <p class="review-text" data-i18n="review-1-text">Nečakaná výhoda: málo ľudí, na ADUI je veľa miest, kde sa dá zájsť ďalej...</p>
+                                        <div class="review-full" data-i18n="review-1-full">
+                                            Málo ľudí v ročníku znamená, že sa učitelia venujú každému individuálne a konzultácie mimo hodín sú úplne bežné.
+                                            Na ADUI je zároveň veľa priestoru na to, zájsť ďalej – od výskumných projektov až po spoluprácu s firmami,
+                                            takže si štúdium vieš prispôsobiť podľa toho, čo ťa baví.
+                                        </div>
+                                        <a href="#" class="read-more">Prečítajte si podrobné interview</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="profile-image">
+                                        <div class="profile-icon"></div>
+                                    </div>
+                                    <div class="review-content">
+                                        <h3 class="reviewer-name" data-i18n="review-2-name">Kiara Koščová</h3>
+                                        <p class="review-text" data-i18n="review-2-text">Štúdium ma príjemne prekvapilo, hoci som na začiatku nemala presné očakávania. Program je výrazne zameraný na matematiku, ktorá tvorí základ umelej inteligencie...</p>
+                                        <div class="review-full" data-i18n="review-2-full">
+                                            Matematika je naozaj základ, na ktorý sa potom nabaľuje všetko ostatné – programovanie, štatistika aj samotná
+                                            umelá inteligencia. Oceňujem, že predmety na seba nadväzujú a človek postupne vidí, ako do seba všetko zapadá.
+                                        </div>
+                                        <a href="#" class="read-more">Prečítajte si podrobné interview</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="profile-image">
+                                        <div class="profile-icon"></div>
+                                    </div>
+                                    <div class="review-content">
+                                        <h3 class="reviewer-name" data-i18n="review-3-name">Damián Kaszycki</h3>
+                                        <p class="review-text" data-i18n="review-3-text">Je tu dosť kvalitných učiteľov, ktorí mi poskytujú konzultácie mimo hodín, čo je veľké plus. Priprav sa, bude veľa matiky...</p>
+                                        <div class="review-full" data-i18n="review-3-full">
+                                            Matematiky sa naozaj netreba báť, aj keď jej je dosť – s trochou snahy a pomocou vyučujúcich sa dá zvládnuť
+                                            aj bez predchádzajúcich hlbokých skúseností. Konzultácie mimo hodín boli pre mňa osobne najväčšou pomocou.
+                                        </div>
+                                        <a href="#" class="read-more">Prečítajte si podrobné interview</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="profile-image">
+                                        <div class="profile-icon"></div>
+                                    </div>
+                                    <div class="review-content">
+                                        <h3 class="reviewer-name" data-i18n="review-4-name">Anna Fischer</h3>
+                                        <p class="review-text" data-i18n="review-4-text">Kvalitné vzdelanie a priateľské prostredie. Našla som tu veľa priateľov a získala som cenné skúsenosti pre budúcnosť...</p>
+                                        <div class="review-full" data-i18n="review-4-full">
+                                            Okrem samotného štúdia si odnášam aj kopu skúseností z projektov s firmami a priateľstvá, ktoré vydržia
+                                            aj po škole. Prostredie je otvorené a nikdy som sa nebála opýtať, keď mi niečo nebolo jasné.
+                                        </div>
+                                        <a href="#" class="read-more">Prečítajte si podrobné interview</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="swiper-navigation swiper-button-next">❯</div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+           <section class="faq-section">
+            <h2 data-i18n="questions">MÁTE STÁLE OTÁZKY?</h2>
+            <div class="faq-item first">
+                <div class="faq-question" data-i18n="question1" onclick="toggleFaq(this)">
+                    Je štúdium príliš teoretické?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" data-i18n="answer1">
+                    Študijný program bol pripravovaný v spolupráci s IT spoločnosťami. 
+                    Tie sa budú podieľať priamo na výučbe, vedení záverečných prác a 
+                    projektov. Svoje štúdium môžeš doplniť praktickými skúsenosťami 
+                    priamo u nich.
+                </div>
+            </div>
+
+            <div class="faq-item first">
+                <div class="faq-question" data-i18n="question2" onclick="toggleFaq(this)">
+                    V akých oblastiach sa využíva dátová analýza?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" data-i18n="answer2">
+                    Svoje vedomosti môžeš aplikovať v expertných systémoch pre medicínsku 
+                    oblasť alebo pre inteligentné riadenie dopravy vo firme VSL Software, 
+                    v oblasti rozšírenej reality a vývoji hier vo firme Matsuko, v moderných 
+                    odporúčacích systémoch využívajúcich analýzu obrazu vo firme Anovative, 
+                    pri vývoji medicínskych aplikácii v spoločnosti Global Logic.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" data-i18n="question3" onclick="toggleFaq(this)">
+                    Prijmú ma na bakalársky stupeň ADUI bez prijímacích skúšok?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" data-i18n="answer3">
+                    Prijímacie skúšky vo všeobecnosti nie sú potrebné. Podmienkou 
+                    na zaradenie do prijímacieho konania na bakalársky stupeň štúdia 
+                    ADUI je úspešné absolvovanie maturitnej skúšky z matematiky alebo 
+                    informatiky. Uznaná môže byť aj obsahovo príbuzná maturitná skúška 
+                    z odborných predmetov na strednej odbornej škole alebo SCIO test z 
+                    matematiky. Prijatie na štúdium majú garantované študenti so študijným 
+                    priemerom do 2,00. Ďalej sú študenti prijímaní podľa poradovníka. 
+                    Viac sa dozvieš <a href="https://studijne-programy.upjs.sk/prihlaska/ADUIb?prihlasky=" target="_blank">tu</a>.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" data-i18n="question4" onclick="toggleFaq(this)">
+                    Potrebujem absolvovať prijímacie skúšky na magisterský stupeň štúdia?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" data-i18n="answer4">
+                    Prijímacie skúšky sú potrebné v prípade, keď predošlé štúdium na 
+                    bakalárskom stupni nie je príbuzné so študijným plánom bakalárskeho 
+                    stupňa ADUI. V opačnom prípade sa posudzuje vážený študijný priemer 
+                    a odborné aktivity uchádzača, na základe ktorých môže byť uchádzač 
+                    prijatý bez prijímacích skúšok. Viac sa dozvieš <a href="https://studijne-programy.upjs.sk/prihlaska/ADUIm?prihlasky=" target="_blank">tu</a>.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" data-i18n="question5" onclick="toggleFaq(this)">
+                    Kde sa môžem dozvedieť viac?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" data-i18n="answer5">
+                    Sleduj naše stránky <a href="http://adui.science.upjs.sk" target="_blank">ADUI web</a> a 
+                    <a href="http://nadvakroky.sk" target="_blank">Na dva kroky</a> a staň sa súčasťou komunity. 
+                    Ak máš otázky, napíš nám na adui@upjs.sk. Príď sa k nám pozrieť na 
+                    stretnutia nadšencov dátovej analýzy (<a href="http://dam.science.upjs.sk" target="_blank">DAM</a>) 
+                    alebo sa zúčastní interaktívnych workshopov. Pre viac informácií pozri aj Kontakty.
+                </div>
+            </div>
+        </section>
+
+            <section class="section-partners">
+                <h2 data-i18n="partners-title">Our Partners</h2>
+                <div class="partner-logos">
+                    <div class="logos-track">
+                        <img src="img/web_img/logos/logo1.png" alt="Partner 1">
+                        <img src="img/web_img/logos/logo2.png" alt="Partner 2">
+                        <img src="img/web_img/logos/logo3.png" alt="Partner 3">
+                        <img src="img/web_img/logos/logo4.png" alt="Partner 4">
+                        <img src="img/web_img/logos/logo1.png" alt="Partner 1 clone">
+                        <img src="img/web_img/logos/logo2.png" alt="Partner 2 clone">
+                        <img src="img/web_img/logos/logo3.png" alt="Partner 3 clone">
+                        <img src="img/web_img/logos/logo4.png" alt="Partner 4 clone">
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-contact-form">
+                <div class="image-wrapper">
+                    <img class="contact-image" src="img/web_img/upjs_building.png" alt="Contact Image">
+                    <div class="form-overlay">
+                        <h3 data-i18n="request-info-title">Requests Information</h3>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName" data-i18n="request-first-name">First name</label>
+                                    <input type="text" id="firstName" placeholder="-empty">
+                                </div>
+                                <div class="form-group">
+                                    <label for="secondName" data-i18n="request-second-name">Second name</label>
+                                    <input type="text" id="secondName" placeholder="-empty">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email" data-i18n="request-email">Email</label>
+                                    <input type="email" id="email" placeholder="-empty">
+                                </div>
+                                <div class="form-group">
+                                    <label for="degree">Bc. / Mgr.</label>
+                                    <select id="degree">
+                                        <option value="" data-i18n="select-text">Select</option>
+                                        <option value="bc" data-i18n="request-bc">Bachelor (Bc.)</option>
+                                        <option value="mgr" data-i18n="request-mgr">Master (Mgr.)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="question" data-i18n="requst-question">Question</label>
+                                <textarea id="question" placeholder="Write your question"></textarea>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <button class="send-button button" data-i18n="request-send">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-column">
+                        <button class="footer-button button">Prihláška</button>
+                        <div class="footer-section">
+                            <h3 data-i18n="study-title">Štúdium</h3>
+                            <ul>
+                                <li data-i18n="study-undergrad">Undergraduate (Bc.)</li>
+                                <li data-i18n="study-grad">Graduate (Mgr.)</li>
+                            </ul>
+                        </div>
+                        <div class="footer-section">
+                            <h3 data-i18n="study-activity">Aktivity</h3>
+                            <ul>
+                                <li data-i18n="study-dataday">DataDay</li>
+                                <li data-i18n="study-all-activity">All activities</li>
+                                <li data-i18n="study-prof-page">(prof. str.)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-section">
+                            <h3 data-i18n="careers-title">Careers</h3>
+                            <ul>
+                                <li data-i18n="careers-pf">Careers na PF</li>
+                                <li data-i18n="careers-upjs">Careers na UPJS</li>
+                            </ul>
+                        </div>
+                        <div class="footer-section">
+                            <h3 data-i18n="about-faculty-title">O fakulte</h3>
+                            <ul>
+                                <li data-i18n="about-faculty-pf">Prirodovedecka Fakulta UPJS</li>
+                            </ul>
+                        </div>
+                        <div class="footer-section">
+                            <h3 data-i18n="contacts-title">Contacts</h3>
+                            <ul>
+                                <li>adui.contact@upjs</li>
+                                <li>+42146546</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-logos">
+                    <div class="logo-item">
+                        <img src="https://placehold.co/100x100/3a378e/ffffff?text=👤" alt="Profile Logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="https://placehold.co/100x100/3a378e/ffffff?text=⏻" alt="Power Logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="https://placehold.co/100x100/3a378e/ffffff?text=⚙️" alt="Settings Logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="https://placehold.co/100x100/3a378e/ffffff?text=📊" alt="Chart Logo">
+                    </div>
+                </div>
+            </div>
+            <p class="copyright" data-i18n="copyright-text">Copyright © 2024 Analýza dát a umelá inteligencia</p>
+        </footer>
+    </div>
+
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+
+    <!-- SWIPER (reviews) — unchanged -->
+    <script>
+        class StudentSwiper {
+            constructor() {
+                this.currentPair = 0;
+                this.slides = document.querySelectorAll('.swiper-slide');
+                this.totalSlides = this.slides.length;
+                this.slidesPerView = window.innerWidth <= 900 ? 1 : 2; /*768 -> 900*/
+                this.totalPairs = Math.ceil(this.totalSlides / this.slidesPerView);
+                this.isAnimating = false;
+                this.generatePagination();
+                this.init();
+                window.addEventListener('resize', () => this.handleResize());
+            }
+
+            handleResize() {
+                const newSlidesPerView = window.innerWidth <= 900 ? 1 : 2; /*768 -> 900*/
+                if (newSlidesPerView !== this.slidesPerView) {
+                    this.slidesPerView = newSlidesPerView;
+                    /*Math.ceil(this.totalSlides / this.slidesPerView);*/
+                    this.totalPairs = Math.max(1, Math.ceil(this.totalSlides / this.slidesPerView)); 
+                    
+                    this.currentPair = 0;
+                    this.generatePagination();
+                    this.updateSlides();
+                }
+            }
+
+            generatePagination() {
+                const paginationContainer = document.querySelector('.swiper-pagination');
+                paginationContainer.innerHTML = '';
+                for (let i = 0; i < this.totalPairs; i++) {
+                    const dot = document.createElement('div');
+                    dot.className = 'pagination-dot';
+                    if (i === 0) dot.classList.add('active');
+                    paginationContainer.appendChild(dot);
+                }
+                this.dots = document.querySelectorAll('.pagination-dot');
+                this.dots.forEach((dot, index) => {
+                    dot.addEventListener('click', () => this.goToPair(index));
+                });
+            }
+
+            init() {
+                this.updateSlides();
+                document.querySelector('.swiper-button-next').addEventListener('click', () => this.nextSlide());
+                document.querySelector('.swiper-button-prev').addEventListener('click', () => this.prevSlide());
+            }
+
+            updateSlides() {
+                //const slideWidthPercent = 50;
+                const containerWidth = document.querySelector('.slides-container').offsetWidth;
+                const gapPx = 30;
+                const gapPercent = (gapPx / containerWidth) * 100;
+                // each "view" of slidesPerView slides fills exactly 100% of the container,
+                // so advancing one pair only adds one boundary gap.
+                const offset = this.currentPair * (100 + gapPercent);
+                //const offset = this.currentPair * (slideWidthPercent + gapPercent) * this.slidesPerView;
+                const container = document.querySelector('.slides-container');
+                container.style.transform = `translateX(-${offset}%)`;
+                this.dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === this.currentPair);
+                });
+            }
+
+            nextSlide() {
+                if (this.isAnimating) return;
+                this.isAnimating = true;
+                this.currentPair = (this.currentPair + 1) % this.totalPairs;
+                this.updateSlides();
+                setTimeout(() => { this.isAnimating = false; }, 300);
+            }
+
+            prevSlide() {
+                if (this.isAnimating) return;
+                this.isAnimating = true;
+                this.currentPair = this.currentPair === 0 ? this.totalPairs - 1 : this.currentPair - 1;
+                this.updateSlides();
+                setTimeout(() => { this.isAnimating = false; }, 300);
+            }
+
+            goToPair(pairIndex) {
+                if (this.isAnimating || pairIndex === this.currentPair || pairIndex >= this.totalPairs) return;
+                this.isAnimating = true;
+                this.currentPair = pairIndex;
+                this.updateSlides();
+                setTimeout(() => { this.isAnimating = false; }, 300);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => { new StudentSwiper(); });
+    </script>
+
+    <script>
+        function toggleFaq(element) {
+            const item = element.parentElement;
+            item.classList.toggle('open');
+            const toggle = item.querySelector('.faq-toggle');
+            toggle.textContent = item.classList.contains('open') ? '−' : '+';
+        }
+    </script>
+
+    <script>
+        const translations = {
+            sk: {
+                "aduiTitle": "Analýza dát a umelá inteligencia",
+                "studyTitle": "Štúdium",
+                "activityTitle": "Aktivity",
+                "careersTitle": "Kariéra",
+                "aboutFacultyTitle": "O fakulte",
+                "contactsTitle": "Kontakty",
+                "language": "Jazyk",
+                "slovakLang": "Slovensky (SK)",
+                "englishLang": "English (EN)",
+                "applicationText": "Prihláška",
+                "heroTitle": "Analýza dát<br/>a umelá inteligencia",
+                "heroDescription": "Počas štúdia získaš veľmi slušné základy z programovania, matematiky a štatistiky, a tie budeš vedieť uplatniť na riešenie výziev v reálnom svete.",
+                "studyButton": "Študujte s nami",
+                "whyStudy": "Prečo študovať ADUI na UPJS?",
+                "whyStudyText1": "Obrovské množstvo zozbieraných dát volá po rozumnom využití. Po dátových analytikoch je a ešte dlho bude veľmi veľký dopyt.",
+                "whyStudyText2": "Počas štúdia budeš pracovať na rôznych projektoch zadaných firmami, s ktorými spolupracujeme.",
+                "whyStudyText3": "Budú ťa učiť odborníci, ktorí sa venujú zaujímavým otázkam – metódy na rozpoznávanie rakovinotvorných buniek, atd",
+                "whyStudyText4": "Košice sú mesto s bohatou kultúrou, prírodou a výhodnou polohou pri hraniciach s Maďarskom, Poľskom a Ukrajinou",
+                "mainEventTitleText": "Najnovšie udalosti",
+                "buttonFindOutMoreText": "Zistiť viac",
+                "eventTitle1Name": "DAM: Sunset or Sunrise of GenAI | Workshop: LLM Prototyping",
+                "eventTitle1Date": "14. novembra 2024",
+                "eventTitle2Name": "DataDay 5",
+                "eventTitle2Date": "14. novembra 2024",
+                "eventTitle3Name": "Dáta v medicíne a zdravotnej starostlivosti",
+                "eventTitle3Date": "15. mája 2024",
+                "sectionAboutUsTitle": "O nás",
+                "questions": "MÁTE STÁLE OTÁZKY?",
+                //"question1": "Je štúdium príliš teoretické?",
+                //"answer1": "Nie, štúdium je zamerané aj prakticky - riešia sa reálne projekty a spolupracuje sa s firmami.",
+                //"question2": "Prijmú ma na bakalársky stupeň ADUI bez prijímacích skúšok?",
+                //"answer2": "Áno. Podmienkou je úspešné absolvovanie maturitnej skúšky z matematiky alebo informatiky. Viac info nájdeš na stránke.",
+                "partnersTitle": "Naši partneri",
+                "copyrightText": "Copyright © 2024 Analýza dát a umelá inteligencia"
+            },
+            en: {
+                "aduiTitle": "Data Analysis and Artificial Intelligence",
+                "studyTitle": "Study",
+                "activityTitle": "Activities",
+                "careersTitle": "Careers",
+                "aboutFacultyTitle": "About Faculty",
+                "contactsTitle": "Contacts",
+                "language": "Language",
+                "slovakLang": "Slovensky (SK)",
+                "englishLang": "English (EN)",
+                "applicationText": "Apply",
+                "heroTitle": "Data Analysis<br/>and Artificial Intelligence",
+                "heroDescription": "During your studies you will gain solid foundations in programming, mathematics and statistics, and apply them to solve real-world challenges.",
+                "studyButton": "Study with us",
+                "whyStudy": "Why study ADUI at UPJŠ?",
+                "whyStudyText1": "The enormous amount of collected data calls for intelligent use. Demand for data analysts is and will remain very high.",
+                "whyStudyText2": "During your studies you will work on various projects assigned by companies we partner with.",
+                "whyStudyText3": "You will be taught by experts working on fascinating problems – methods for detecting cancer cells, and more.",
+                "whyStudyText4": "Košice is a city with a rich culture, nature, and a favorable location near the borders with Hungary, Poland, and Ukraine.",
+                "mainEventTitleText": "Latest events",
+                "buttonFindOutMoreText": "Find out more",
+                "eventTitle1Name": "DAM: Sunset or Sunrise of GenAI | Workshop: LLM Prototyping",
+                "eventTitle1Date": "November 14, 2024",
+                "eventTitle2Name": "DataDay 5",
+                "eventTitle2Date": "November 14, 2024",
+                "eventTitle3Name": "Data in Medicine and Healthcare",
+                "eventTitle3Date": "May 15, 2024",
+                "sectionAboutUsTitle": "About Us",
+                "questions": "STILL HAVE QUESTIONS?",
+                //"question1": "Is the study too theoretical?",
+                //"answer1": "No, the study is also practically oriented — real projects are solved in collaboration with companies.",
+                //"question2": "Can I be admitted to the ADUI bachelor's programme without entrance exams?",
+                //"answer2": "Yes. The condition is successfully passing the matura exam in mathematics or computer science. More info on the website.",
+                "partnersTitle": "Our Partners",
+                "copyrightText": "Copyright © 2024 Data Analysis and Artificial Intelligence"
+            }
+        };
+
+        function setLanguage(lang) {
+            localStorage.setItem('lang', lang);
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key]) {
+                    el.innerHTML = translations[lang][key];
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const urlLang = params.get('lang');
+            const lang = urlLang || localStorage.getItem('lang') || 'sk';
+            setLanguage(lang);
+        });
+    </script>
+
+    <script>
+    /* ─────────────────────────────────────────────────────────────────────
+       ABOUT US  –  smooth infinite stepped carousel
+       ─────────────────────────────────────────────────────────────────────
+       HOW THE SEAMLESS LOOP WORKS  (no invisible jump, ever)
+       ──────────────────────────────────────────────────────
+       We clone every real slide and add the copies as a buffer:
+         [ ...last-N clones | slide0 slide1 … slideN-1 | ...first-N clones ]
+       The track starts positioned so slide0 is centred on screen.
+
+       Because real slides exist on both sides of each real slide,
+       the carousel can always slide smoothly left or right.
+       After the transition finishes we silently reposition:
+         • if we scrolled into the right buffer → snap back to the
+           matching real slide (same image, no visible change)
+         • if we scrolled into the left buffer  → snap forward to
+           the matching real slide
+       This produces a perfectly seamless loop with zero jump artefacts
+       because at the moment of the snap the visible content is identical.
+
+       CENTERING
+       ─────────
+       Each slide is --slide-w wide (CSS %).  The centreOffset places
+       the active slide's left edge so its centre aligns with the
+       container's centre:
+         centreOffset = (containerW - slideW) / 2
+       The track is shifted by  -(index * stepPx) + centreOffset
+
+       CONSTANT SPEED
+       ──────────────
+       Every advance moves exactly one stepPx = slideW + gapPx.
+       CSS transition duration is fixed at 0.6 s, so the speed
+       (pixels / second) is always identical.
+    ───────────────────────────────────────────────────────────────────── */
+    (function () {
+        'use strict';
+
+        const INTERVAL       = 6000;   // ms between steps
+        const TRANSITION_DUR =  600;   // ms  — keep in sync with CSS value set below
+
+        const track = document.getElementById('aboutTrack');
+        if (!track) return;
+
+        // ── 1. Collect real slides ────────────────────────────────────────
+        const realSlides = Array.from(track.querySelectorAll('.slide'));
+        const N = realSlides.length;
+
+        // ── 2. Build buffer: append N clones at end, prepend N at start ──
+        //    End buffer (slides after the real ones)
+        realSlides.forEach(s => {
+            const c = s.cloneNode(true);
+            c.setAttribute('aria-hidden', 'true');
+            track.appendChild(c);
+        });
+        //    Start buffer (slides before the real ones, inserted in reverse
+        //    so order is preserved)
+        for (let i = realSlides.length - 1; i >= 0; i--) {
+            const c = realSlides[i].cloneNode(true);
+            c.setAttribute('aria-hidden', 'true');
+            track.insertBefore(c, track.firstChild);
+        }
+        // Track layout is now:
+        //   [clone0…cloneN-1 | slide0…slideN-1 | clone0…cloneN-1]
+        //    indices 0…N-1       N…2N-1            2N…3N-1
+
+        // ── 3. State ─────────────────────────────────────────────────────
+        //    current points into the REAL band (starts at N = first real slide)
+        let current = N;
+        let stepPx  = 0;
+        let centreOffset = 0;
+        let busy    = false;   // locked during post-transition snap
+
+        // ── 4. Measurement ───────────────────────────────────────────────
+        function measure() {
+            const container = track.parentElement;
+            const cs        = getComputedStyle(container);
+            const pct       = parseFloat(cs.getPropertyValue('--slide-w'))   || 70;
+            const gapRem    = parseFloat(cs.getPropertyValue('--slide-gap')) || 1.5;
+            const rootPx    = parseFloat(getComputedStyle(document.documentElement).fontSize);
+
+            const W      = container.offsetWidth;
+            const slideW = W * (pct / 100);
+            const gapPx  = gapRem * rootPx;
+
+            stepPx       = slideW + gapPx;
+            centreOffset = (W - slideW) / 2;   // left-edge offset to centre the slide
+        }
+
+        // ── 5. Move ───────────────────────────────────────────────────────
+        function moveTo(idx, animate) {
+            if (animate) {
+                track.style.transition = `transform ${TRANSITION_DUR}ms ease-in-out`;
+            } else {
+                track.style.transition = 'none';
+            }
+            // Translate so that slide[idx] is centred:
+            //   left edge of slide[idx] = idx * stepPx
+            //   subtract centreOffset to push it to the visual centre
+            track.style.transform = `translateX(${centreOffset - idx * stepPx}px)`;
+        }
+
+        // ── 6. Advance one slide ──────────────────────────────────────────
+        function advance() {
+            if (busy) return;
+
+            current++;
+            moveTo(current, true);
+
+            // After we enter the right buffer, snap back to the real band
+            if (current >= 2 * N) {
+                busy = true;
+                setTimeout(() => {
+                    current = N;              // same image in the real band
+                    moveTo(current, false);   // instant, invisible
+                    requestAnimationFrame(() => requestAnimationFrame(() => {
+                        busy = false;
+                    }));
+                }, TRANSITION_DUR + 20);
+            }
+        }
+
+        // ── 7. Init + resize ─────────────────────────────────────────────
+        function init() {
+            measure();
+            moveTo(current, false);
+        }
+
+        window.addEventListener('resize', () => {
+            measure();
+            moveTo(current, false);
+        });
+
+        requestAnimationFrame(() => {
+            init();
+            setInterval(advance, INTERVAL);
+        });
+    }());
+    </script>
+    <!-- Expand / collapse full review by clicking the orange link text (no separate button) -->
+    <script>
+        document.querySelectorAll(".read-more").forEach(link => {
+            const collapsedLabel = link.textContent.trim();
+
+            link.addEventListener("click", (e) => {
+                e.preventDefault();
+                const slide = link.closest(".swiper-slide");
+                const isExpanded = slide.classList.toggle("expanded");
+                link.textContent = isExpanded ? "Skryť rozhovor" : collapsedLabel;
+            });
+        });
+    </script>
+
+</body>
+</html>
